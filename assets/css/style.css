@@ -180,14 +180,20 @@ header {
 
 /* statistics section*/
 #statistics {
+    position: relative;
     display: flex;
-    margin: 150px;  
+    margin: 25px;  
     flex: 1;
     gap: 150px;
     border: 1px solid rgb(36, 34, 34);
     box-sizing: border-box;
+    padding: 125px;
                
 }
+
+#statistics div {               
+    max-width: 330px;
+} 
 #statistics h1 {
     
     color: red;
@@ -206,25 +212,27 @@ header {
 }
 
 /* media query for statistics */
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1330px) {
     #statistics {       
-        gap: 50px;
-        margin: 150px;              
+        gap: 25px;
+        margin: 25px;
+        padding: 125px; 
+                    
     }  
+    #statistics div {               
+        min-width: 300px;
+    } 
 }
 
 @media screen and (max-width: 1030px) {
     #statistics {
         display: block;
         margin: 0 auto;
-        height: auto;
-        width: 280px;
+        height: auto;        
         margin-bottom: 75px;       
     }
 
-    #statistics div {
-        margin-top: 75px;
-    }   
+      
 }
     
 @media screen and (max-width: 360px) {
