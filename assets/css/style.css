@@ -180,18 +180,19 @@ header {
 
 /* statistics section*/
 #statistics {
-    width: 90%;    
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 100px;    
-    column-count: 3;
-    column-gap: 100px;             
+    display: flex;
+    margin: 150px;  
+    flex: 1;
+    gap: 150px;
+    border: 1px solid rgb(36, 34, 34);
+    box-sizing: border-box;
+               
 }
 #statistics h1 {
     
     color: red;
     font-size: 300%;
-    font-weight: 700;
+    font-weight: 1000;
     vertical-align: bottom;
     text-align: center;
 }
@@ -204,26 +205,43 @@ header {
     text-align: center;
 }
 
-/* media query for statistics from 1100*/
-@media screen and (max-width: 1100px) {
-    #statistics {
-        display: grid;
-        height: auto;
-        
-    }
-    #statistics div {
-        padding-bottom: 50px;
-        
-    }
+/* media query for statistics */
+@media screen and (max-width: 1400px) {
+    #statistics {       
+        gap: 50px;
+        margin: 150px;              
+    }  
 }
 
-    /* media query for statistics from 360*/
+@media screen and (max-width: 1030px) {
+    #statistics {
+        display: block;
+        margin: 0 auto;
+        height: auto;
+        width: 280px;
+        margin-bottom: 75px;       
+    }
+
+    #statistics div {
+        margin-top: 75px;
+    }   
+}
+    
 @media screen and (max-width: 360px) {
+    #statistics {        
+        margin-bottom: 30px;       
+    }
+    
+    #statistics div {
+        padding: 20px;
+        margin-top: 30px;
+        
+    }
     #statistics h1 {       
-        font-size: 10vw;        
+        font-size: 12vw;        
     }
     #statistics h3 {       
-        font-size: 5vw;
+        font-size: 7vw;
         
     }
 }
