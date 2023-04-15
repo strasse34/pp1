@@ -10,31 +10,31 @@ body {
 }
 
 /* navigation */
-header {
-    display: flex;
-    flex-direction: row;
+header {    
+    display: flex; 
+    justify-content:space-between;
 }
 #menu {
+    
     font-size: 110%;
     letter-spacing: 2px;
     margin: 10px 0 10px;
-    
+    display: flex;    
+    order: 1;
 }
-#menu ul {
-    font-family: sans-serif;
-    font-weight: 400;
-    color: #7B96C2ff;
-    list-style: none;    
-}
+
 
 #menu li {
     display: inline-block;
     margin-right: 10px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    font-weight: 400;
+    color: #7B96C2ff;
+    list-style: none;
     
 }
-#menu a {
-    display: block;
-    padding: 10px;
+#menu a {   
     text-decoration: none;
 }
 #menu a:hover {
@@ -42,30 +42,34 @@ header {
 }
 
 /* login */
-#login {
-    flex-grow: 1;
+#login {    
+    display: flex;
     margin: 10px 0 10px;
+    order: 2;
+
 }
-#login select {
-    float: right;
-    padding: 10px;
+#login select {    
+    padding: 11px;
     font-size: 600;
     border: solid 1px #7B96C2ff;
     text-align: center;
-    color: #454545; 
-    margin-right: 10px;     
+    color: #454545;
+    border-radius: 2px;
+    margin-right: 5px;  
+        
     
 }
 
-.button {
-    float: right;
+.button {    
     font-family: sans-serif;
     font-weight: 400;
     font-size: 110%;
-    color: #7B96C2ff;
+    color: rgb(35, 79, 150);
     list-style: none;
-    margin: 0 5px;
-    padding: 10px;    
+    margin-right: 20px;
+    padding: 10px; 
+    background-color: #7B96C2ff; 
+    border-radius: 2px;  
 }
 
 #login a {
@@ -74,40 +78,43 @@ header {
 }
 
 #login a:hover {
-    color: #7B96C2ff;    
+    color: rgb(235, 238, 243);    
 }
 
 /* media queries for menu and login */
 @media screen and (max-width:720px) {
     
     header {
-        display: grid;
-    }
-    #menu li {        
-        display: grid;
-        justify-content: center;
-        clear: both;
-    }
-    #login {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        
-    }
-    #login select {       
-        float: none;
-        width: 50%; 
-        margin-right: 0;      
+        display: block;
     }
     
-    .button {        
-        display: flex;      
+    #menu {
+        width:auto;
+        display: grid;
+        order: 0;
         text-align: center;
-        width: 50%;       
-        border: solid 1px #7B96C2ff;
-        background-color: #7B96C2ff;        
-        margin-top: 5px;
-        margin-bottom: 5px; 
+    }
+       
+    #login {
+        display: block;       
+        margin: 0 auto;
+        width: 50%;
+        order:0;
+        
+    }
+    #login select { 
+         width: 100%;
+             
+    }
+    
+    #login .button {        
+     text-align: center;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+     padding-top: 9px;
+     padding-bottom: 9px;
+     margin-top: 5px;   
              
     }  
 }
