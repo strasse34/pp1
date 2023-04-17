@@ -60,7 +60,7 @@ header {
     
 }
 
-.button {    
+#login .button {    
     font-family: sans-serif;
     font-weight: 400;
     font-size: 110%;
@@ -85,7 +85,7 @@ header {
 @media screen and (max-width:720px) {
     
     header {
-        display: block;
+       flex-direction: column;
     }
     
     #menu {
@@ -114,7 +114,8 @@ header {
      padding: 0;
      padding-top: 9px;
      padding-bottom: 9px;
-     margin-top: 5px;   
+     margin-top: 5px;
+     margin-bottom: 5px;   
              
     }  
 }
@@ -181,13 +182,13 @@ header {
 /* statistics section*/
 #statistics {
     position: relative;
-    display: flex;
-    margin: 25px;  
-    flex: 1;
-    gap: 150px;
+    display: flex;   
+    justify-content:space-evenly;
+    margin: 25px;   
     border: 1px solid rgb(36, 34, 34);
     box-sizing: border-box;
     padding: 125px;
+    gap: 5vw;
                
 }
 
@@ -211,48 +212,30 @@ header {
     text-align: center;
 }
 
-/* media query for statistics */
-@media screen and (max-width: 1330px) {
-    #statistics {       
-        gap: 25px;
-        margin: 25px;
-        padding: 125px; 
-                    
-    }  
-    #statistics div {               
-        min-width: 300px;
-    } 
-}
-
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1170px) {
     #statistics {
-        display: block;
-        margin: 0 auto;
-        height: auto;        
+        flex-direction: column;
+        align-items: center;             
         margin-bottom: 75px;       
     }
-
-      
+    
 }
     
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 600px) {
     #statistics {        
-        margin-bottom: 30px;       
+        padding: 50px;       
     }
     
-    #statistics div {
-        padding: 20px;
-        margin-top: 30px;
-        
-    }
-    #statistics h1 {       
-        font-size: 12vw;        
-    }
-    #statistics h3 {       
+    #statistics h1 {
         font-size: 7vw;
-        
     }
-}
+
+    #statistics h3 {
+        font-size: 5vw;
+    }
+}   
+  
+   
 
 /* talib and girl */
 #talib {
