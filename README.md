@@ -4,7 +4,7 @@ Haami is a Persian word that means "supporter". The website's vision is to provi
 Haami is a website that tries to connect 3 groups of people. The first group is Afghanistan women who are not allowed to get educated and have jobs by the Taliban. The second group is supporters, those people around the world who want to help Afghanistan Women in this hard situation. And the third group is the institutes that provide online education. <br> 
 So online education centers can offer their courses and training on the website. At the same time, Afghanistan women can apply for the courses. Then supporters can select applicants among all the applicants and pay for the cost of the courses directly to the institutes. They can also track supported students' progress.      
 
-![Website in different screen sizes.](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/screenshot-responsive.png)
+![Website in different screen sizes.](assets/images/screenshots/screenshot-responsive.png)
 
 
 ## Pages
@@ -88,7 +88,7 @@ There is an error while validating in W3C. I tried with Microsoft Edge too and g
   - In the GitHub repository, navigate to the Settings tab 
   - In the "Code and automation" section of the sidebar, click Pages
   - Under Github Pages, click on button "Visit Site".
-The live link can be found here - (https://strasse34.github.io/first-project/)
+The live link can be found here - (https://strasse34.github.io/pp1/)
 ## Credits 
 ### Content 
 - The statistics in the home pages about freelancers were taken from [Exploding Topics] (https://explodingtopics.com/blog/freelance-stats)
