@@ -5,7 +5,7 @@ Haami is a website that tries to connect 3 groups of people. The first group is 
 So online education centers can offer their courses and training on the website. At the same time, Afghanistan women can apply for the courses. Then supporters can select applicants among all the applicants and pay for the cost of the courses directly to the institutes. They can also track supported students' progress.      
 
 ![Website in different screen sizes.](assets/images/screenshots/screenshot-responsive.png)
-![Visit Live Website](https://strasse34.github.io/pp1)
+[Visit Live Website](https://strasse34.github.io/pp1/)
 
 
 ## Pages
@@ -89,7 +89,7 @@ There is an error while validating in W3C. I tried with Microsoft Edge too and g
   - In the GitHub repository, navigate to the Settings tab 
   - In the "Code and automation" section of the sidebar, click Pages
   - Under Github Pages, click on button "Visit Site".
-The live link can be found here - (https://strasse34.github.io/pp1/)
+The live link can be found [here](https://strasse34.github.io/pp1/)
 ## Credits 
 ### Content 
 - The statistics in the home pages about freelancers were taken from [Exploding Topics] (https://explodingtopics.com/blog/freelance-stats)
