@@ -5,6 +5,7 @@ Haami is a website that tries to connect 3 groups of people. The first group is 
 So online education centers can offer their courses and training on the website. At the same time, Afghanistan women can apply for the courses. Then supporters can select applicants among all the applicants and pay for the cost of the courses directly to the institutes. They can also track supported students' progress.      
 
 ![Website in different screen sizes.](assets/images/screenshots/screenshot-responsive.png)
+![Visit Live Website](https://strasse34.github.io/pp1)
 
 
 ## Pages
@@ -21,24 +22,24 @@ So online education centers can offer their courses and training on the website.
   - Featured on all five pages, the full responsive navigation bar includes links to the home page, apply page, supporter page, institute page and Log In page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   - In the right side of navigation bar, the log in part with drop-down list help users to access to log in page. 
-![Nav Bar](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/navbar.png)
+![Nav Bar](assets/images/screenshots/navbar.png)
 - __The Home Page Banner__
   - The home page banner shows an Afghan woman wearing the Burka hijab, which she was forced to wear by the Taliban, buying a few slices of bread. I used this image to show the current situation of Afghan women. Bread has deep meaning and respect in Afghan culture. One of the common words for bread is "Rozi" which means you earn money so that you can eat something. The woman in the picture represents Afghan women who worked, had jobs before, and could bring bread (Rozi) to their home. But it is different now.  
   - There are logo and text on the home page image that make some questions in users' minds. 
-![Home Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/homepage-img.png)
+![Home Page](assets/images/screenshots/homepage-img.png)
 - __Statistics Section__
   - This section provides some statistics about freelancers to catch more attention of users. 
   
-![Statistics Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/statistics-section.png)
+![Statistics Section](assets/images/screenshots/statistics-section.png)
 - __Talib Section__
   - This section includes one image and 2 headers and 2 short paragraphs. 
   - The image clearly shows the current situation of girls and women in Afghanistan.  
   - The text explains shortly the picture and comes up with a possible solution.  
-![Talib Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/talib-section.png)
+![Talib Section](assets/images/screenshots/talib-section.png)
 - __Video Section__
   - This section includes a YouTube video from ITV News channel. 
   - The video is a short report on the situation of Afghan women after the announcement of the ban on education and work by the Taliban.   
-![Vedio Section](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/video.png)
+![Vedio Section](assets/images/screenshots/video.png)
 
 - __Contact Section__ 
   - This section includes map and footer.  
@@ -46,26 +47,26 @@ So online education centers can offer their courses and training on the website.
   - The footer includes 3 parts. 1- logo and copyright text, 2- contact details and 3- social media.
   - Email address and phone are clickable and take users to relevant apps.
   - Social media icons are linked to their own pages. 
-![Contact](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/contact-section.png)
+![Contact](assets/images/screenshots/contact-section.png)
 ### Features in Form Pages
 - __Banners__
   - Each form page has specific banner which is relevant to the content. The name of the form is added at the bottom of each banner.   
-![Apply Page Banner](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/apply-banner.png)
-![Supporter Page Banner](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/supporter-banner.png)
-![Institute Page Banner](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-banner.png)
+![Apply Page Banner](assets/images/screenshots/apply-banner.png)
+![Supporter Page Banner](assets/images/screenshots/supporter-banner.png)
+![Institute Page Banner](assets/images/screenshots/institute-banner.png)
 - __Forms__
   - According to the required information, a specific form has been designed for each group of users.
   - In addition to the information, each form provides sign up form for users to make their accounts. 
 - __Apply Form__
-![Apply Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/apply-form.png)
+![Apply Form](assets/images/screenshots/apply-form.png)
 - __Supporter Form__
-![Supporter Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/supporter-form.png)
+![Supporter Form](assets/images/screenshots/supporter-form.png)
 - __Institute Form__
-![Institute Form](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/institute-form.png)
+![Institute Form](assets/images/screenshots/institute-form.png)
 ### Features in Log In Page
   - It shows a girl who, although she is standing by the window of a dark house - the current situation in Afghanistan - but her heart is hopeful.
   - The users who have accounts on the website can log in to their accounts through this page.
-![Log In Page](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/login-page.png) 
+![Log In Page](assets/images/screenshots/login-page.png) 
 ### Features Left to Implement
 - The website needs some more information pages. Every group of target users should lead to information pages and then directed to form pages. 
 - profile pages should be coded for each target group users. 
@@ -75,7 +76,7 @@ So online education centers can offer their courses and training on the website.
 ## Testing 
 
 - Lighthouse in Developer Tools <br>
-![Lighthouse Scores](https://github.com/strasse34/first-project/blob/main/assets/images/screenshots/lighthouse.png) 
+![Lighthouse Scores](assets/images/screenshots/lighthouse.png) 
 - HTML Validator
   - 12 errors and warning were returned when passing through the official [W3C validator]https://validator.w3.org/nu/?doc=https%3A%2F%2Fstrasse34.github.io%2Ffirst-project%2Findex.html). I fixed all the errors but could not fix all the warnings due to shortage of the time. I just fixed one of the warnings and it effected the Login part in Navbar in smaller screen below 720px. 
 - CSS Validator

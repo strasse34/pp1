@@ -41,6 +41,10 @@ header {
     background-color: #ddd;
 }
 
+#menu li.active a {
+    text-shadow: 0 5px 5px rgb(2, 27, 68);
+}
+
 /* login */
 #login {    
     display: flex;
@@ -71,6 +75,9 @@ header {
     background-color: #7B96C2ff; 
     border-radius: 2px;  
 }
+
+
+
 
 #login a {
     text-decoration: none;  
@@ -570,6 +577,12 @@ form hr {
     border: none;
     border-top: 1px solid #454545;
 }
+
+form button a {
+    text-decoration: none;
+    color: #454545;    
+}
+
 form button {
     background-color: rgb(196, 194, 194);
     cursor: pointer;
@@ -653,7 +666,7 @@ form button:hover {
 #institute-banner {
     width: 100%;
     position: relative;
-    background: url('../images/girl-window.jpg') no-repeat center center;
+    background: url('../images/contact-us.jpg') no-repeat center center;
     background-size: cover;    
     height: 400px;
     display: flex;    
@@ -714,7 +727,8 @@ form button:hover {
     
 }
 
-#login-banner form {        
+#login-banner form { 
+    text-decoration: none;       
     margin-top: 15%;
     margin-left: 55%;   
     background-color: rgba(48, 27, 6, 0.8);    
@@ -736,6 +750,10 @@ form button:hover {
 #login-banner div {
     padding: 0;
 }
+#login-banner a {
+    text-decoration: none;
+    color: rgba(48, 27, 6);
+}
 
 #login-banner form label {
     display: block;
@@ -756,8 +774,8 @@ form button:hover {
     font-family: sans-serif;
     font-weight: 400;
     font-size: 100%;
-    background-color: #7ebea6;
-    color: #f5d3a3;
+    background-color: #f5d3a3;
+    color: rgba(48, 27, 6);
     list-style: none;
     margin-top: 20px;
     padding: 10px;
@@ -811,3 +829,22 @@ form button:hover {
         margin: auto 10px;          
     }
 }
+
+
+/* construction page */
+#const {
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    color: #55a4b4;    
+    min-height: 59.5vh;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.message {
+    margin-top: 20vh;
+}
+
+
+
